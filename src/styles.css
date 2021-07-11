@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  height: 100vh;
+  position: relative;
+  user-select: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+*::before {
+  box-sizing: border-box;
+}
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+em {
+  font-style: normal;
+}
+
+a {
+  /* text-decoration: none; */
+  color: inherit;
+}
